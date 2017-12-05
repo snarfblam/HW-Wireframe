@@ -3,9 +3,9 @@ body {
     background: #777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
-    width: 960px;
+    width: 940px;
     margin: 0px auto;
-
+	
 }
 
 header, nav, footer, section, aside {
@@ -13,40 +13,48 @@ header, nav, footer, section, aside {
     background: #ebebeb;
     color: #777;
     text-align: center;
-    margin: 10px auto;
+    margin: 10px 0 0 0;
     
 }
 
 
-header, nav {
-    width: 960px
+header, nav, footer {
+    width: 940px
 }
 
 header {
     font-size: 2em;
+    box-sizing: border-box;
 }
 
 nav {
+        box-sizing: border-box;
+
 }
 
 footer {
-    width: 960px;
-    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    clear: both;
+    /* width: 100%; */
+    /* box-sizing: border-box; */
 }
 
 aside {
-    margin: 20px -20px 20px -20px;
+    margin: 20px 0 20px 0;
     float: right;
     width: 405px;
     height: 300px;
+    box-sizing: border-box;
 }
 
 section {
-    width: 495px;
-    //float: left;
+    width: 515px;
+    float: left;
     display: inline-block;
-    margin: 20px 20px 20px 0px;
+    margin: 20px 0;
     height: 300px;
+    box-sizing: border-box;
 }
 
 article {
